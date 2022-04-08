@@ -15,7 +15,7 @@ var meios = ["a sandrinha", "o carro da sandrinha", "a mommy ufrgs", "o thiago b
 
     //fim
 
-var fins = [" com o doutor leonardo.", " com a doutora gabrielle.", " com a sandrinha.", "... bahhhhhh..", "... literalmente.", " neah", " ainda bem que é peso 1"];
+var fins = [" com o doutor leonardo.", " com a doutora gabrielle.", " com a sandrinha.", "... bahhhhhh..", "... literalmente.", " neah", ".. ainda bem que é peso 1", "... o foda é que é peso 3..."];
 
 var fazerFrase = function () {
     var inicio = inicios[Math.floor(Math.random() * inicios.length)];
