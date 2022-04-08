@@ -7,7 +7,7 @@ var frasePronta;
 
     //inicio
 
-var inicios = ["bah, hoje eu vi ", "yall, eu tava pensando n", "literalmente me sentindo "];
+var inicios = ["tava no cursinho falando d", "bah, hoje eu vi ", "yall, eu tava pensando n", "literalmente me sentindo "];
 
     //meio
 
