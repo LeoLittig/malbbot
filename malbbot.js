@@ -35,5 +35,24 @@ var fazerFrase = function () {
            });
 }
 
+var fraseCompleta = function () {
+    let nomes = ["leonardo"];
+
+    let mesoclise = ["faze-lo-ei"];
+
+    let adjetivos = ["deusa"];
+
+
+    let nome = nomes[Math.floor(Math.random() * nomes.length)];
+    let mesoclis = mesoclise[Math.floor(Math.random() * mesoclise.length)];
+    let adjetivo = adjetivos[Math.floor(Math.random() * adjetivos.length)];
+
+    fraseComplete = ` Se o ${nome} fizer tal coisa, ${mesoclis} também, como diria a ${adjetivo} sandrinha `;
+    
+    console.log(fraseComplete);
+}
+
 setInterval(fazerFrase, 100);
 setInterval(writeTweet, 1800000);
+
+setInterval(fraseCompleta, 200);
