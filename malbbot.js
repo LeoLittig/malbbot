@@ -35,7 +35,7 @@ var fazerFrase = function () {
            });
 }
 
-var fraseCompleta = function () {
+let fraseCompleta = function () {
     let nomes = ["leonardo"];
 
     let mesoclise = ["faze-lo-ei"];
@@ -55,4 +55,4 @@ var fraseCompleta = function () {
 setInterval(fazerFrase, 100);
 setInterval(writeTweet, 1800000);
 
-setInterval(fraseCompleta, 200);
+setInterval(fraseCompleta, 300);
