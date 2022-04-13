@@ -11,7 +11,7 @@ var inicios = ["tava no cursinho falando d", "bah, hoje eu vi ", "yall, eu tava 
 
     //meio
 
-var meios = ["a sandrinha", "o carro da sandrinha", "a mommy ufrgs", "o thiago berto", "as casas da italia", "a wine night", "o peso 1", "do peso 3", "o vestibular", "o potao", "o garoto do wifi"];
+var meios = ["a sandrinha", "o carro da sandrinha", "a mommy ufrgs", "o thiago berto", "as casas da italia", "a wine night", "o peso 1", "o peso 3", "o vestibular", "o potao", "o garoto do wifi"];
 
     //fim
 
@@ -36,18 +36,17 @@ var fazerFrase = function () {
 }
 
 let fraseCompleta = function () {
-    let nomes = ["leonardo"];
+    let nomes = ["o leonardo", "o cauã", "a gabrielle", "o doutor leonardo"];
 
-    let mesoclise = ["faze-lo-ei"];
+    let mesoclises = ["faze-lo-ei"];
 
     let adjetivos = ["deusa"];
 
-
     let nome = nomes[Math.floor(Math.random() * nomes.length)];
-    let mesoclis = mesoclise[Math.floor(Math.random() * mesoclise.length)];
+    let mesoclise = mesoclises[Math.floor(Math.random() * mesoclise.length)];
     let adjetivo = adjetivos[Math.floor(Math.random() * adjetivos.length)];
 
-    fraseComplete = ` Se o ${nome} fizer tal coisa, ${mesoclis} também, como diria a ${adjetivo} sandrinha `;
+    fraseComplete = ` Se ${nome} fizer tal coisa, ${mesoclise} também, como diria a ${adjetivo} sandrinha `;
     
     console.log(fraseComplete);
 }
