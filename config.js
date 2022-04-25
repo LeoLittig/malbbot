@@ -2,8 +2,8 @@ var twit = require('twit');
 var config = require('./config.js');
 
 module.exports = {
-    consumer_key: 'MejaLgRFkh0UMvcg1o2A2AEhl',
-    consumer_secret: 'JMnRDOL9o9Iv6AD7Up8ldpELQLEVdUpvBcCnToBlmEmdI9g6Wt',
-    access_token: '1511870373259788289-1P8OZ69P0mVL0ru3aGevqmwgvfkCPS',
-    access_token_secret: 'XKr2DkmAd7NMlAQHqaAHhZ1xlpNijvCPLoDumc4TChcE4'
+    consumer_key: 'dxQAqqyDLmeEMiiEs2D5y0eYE',
+    consumer_secret: 'Et810X9BTD5TbtPLY0RtWaP0AbNtDkzJz66bInHr4rVGDz9uNH',
+    access_token: '1511870373259788289-JnlHBgNgCn7G4FL4rmOuwHeVRirv0O',
+    access_token_secret: 'V0u1EBcrJEGvHNnsD8B21heDvXJv0SQENaitQLxkrqWIH'
 }
