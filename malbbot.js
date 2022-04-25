@@ -7,7 +7,7 @@ var frasePronta;
 
     //inicio
 
-var inicios = ["tava no cursinho falando d", "bah, hoje eu vi ", "yall, eu tava pensando n", "literalmente me sentindo ", "yall! vós ouviveis que ", "bah hoje no cursinho "];
+var inicios = ["tava no cursinho falando d", "bah, hoje eu vi ", "yall, eu tava pensando n", "literalmente me sentindo "];
 
     //meio
 
@@ -43,15 +43,23 @@ let fraseCompleta = function () {
     let adjetivos = ["deusa"];
 
     let nome = nomes[Math.floor(Math.random() * nomes.length)];
-    let mesoclise = mesoclises[Math.floor(Math.random() * mesoclise.length)];
+    let mesoclise = mesoclises[Math.floor(Math.random() * mesoclises.length)];
     let adjetivo = adjetivos[Math.floor(Math.random() * adjetivos.length)];
 
-    fraseComplete = ` Se ${nome} fizer tal coisa, ${mesoclise} também, como diria a ${adjetivo} sandrinha `;
+    fraseCompleta = `Se ${nome} fizer tal coisa, ${mesoclise} também, como diria a ${adjetivo} sandrinha.`;
     
-    console.log(fraseComplete);
+    console.log(fraseCompleta);
 }
 
-setInterval(fazerFrase, 100);
-setInterval(writeTweet, 1800000);
+let fraseFixa = function () {
+    let frasesFixas = ["yall, vocês viram que o chopp fechou?"];
 
+    let fraseFixa = frasesFixas[Math.floor(Math.random() * frasesFixas.length)];
+
+    console.log(fraseFixa);
+}
+setInterval(writeTweet, 30000);
+
+setInterval(fazerFrase, 100);
 setInterval(fraseCompleta, 300);
+setInterval(fraseFixa, 500);
