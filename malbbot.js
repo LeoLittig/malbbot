@@ -58,7 +58,7 @@ let fraseFixa = function () {
 
     console.log(fraseFixa);
 }
-setInterval(writeTweet, 30000);
+setInterval(writeTweet, 3600000);
 
 setInterval(fazerFrase, 100);
 setInterval(fraseCompleta, 300);
