@@ -38,9 +38,9 @@ var fazerFrase = function () {
 let fraseCompleta = function () {
     let nomes = ["o leonardo", "o cauã", "a gabrielle", "o doutor leonardo"];
 
-    let mesoclises = ["faze-lo-ei"];
+    let mesoclises = ["faze-lo-ei", "não o farei"];
 
-    let adjetivos = ["deusa"];
+    let adjetivos = ["deusa", "incrível", "sábia"];
 
     let nome = nomes[Math.floor(Math.random() * nomes.length)];
     let mesoclise = mesoclises[Math.floor(Math.random() * mesoclises.length)];
@@ -58,7 +58,7 @@ let fraseFixa = function () {
 
     console.log(fraseFixa);
 }
-setInterval(writeTweet, 3600000);
+setInterval(writeTweet, 30000);
 
 setInterval(fazerFrase, 100);
 setInterval(fraseCompleta, 300);
